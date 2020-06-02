@@ -1,17 +1,28 @@
 {
-  "name": "mobile-flashcard",
-  "displayName": "mobile-flashcard",
   "expo": {
-    "name": "mobile-flashcard",
-    "slug": "expo-template-bare",
-    "version": "1.0.0",
+    "name": "FlashCards",
+    "slug": "FlashCards",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
   }
 }
