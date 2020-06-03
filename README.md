@@ -13,6 +13,16 @@ The app will allow users to create different categories of flashcards called "de
 * Users should receive a notification to remind themselves to study if they haven't already for that day.
 -----
 
+## Requiremnt
+
+To install and run this app you need
+- NPM or yarn
+- expo
+
+## TESTING
+
+The app works well and tested on both the platforms ios and Android.
+
 ## How to install and run the app
 
 cd to main project directory and run the following commands: 
