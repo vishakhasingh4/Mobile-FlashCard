@@ -17,6 +17,16 @@ class AddCard extends Component {
     onSubmit = () => {
         const {dispatch, navigation} = this.props;
         const dock = this.props.route.params.dock;
+        
+        if(!this.state.question){
+
+            return alert("please fill the form")
+        }
+         if(!this.state.answer){
+
+            return alert("please fill the form")
+        }
+        
         const question = {
             'question': this.state.question,
             'answer': this.state.answer
